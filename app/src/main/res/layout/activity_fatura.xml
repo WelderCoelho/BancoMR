@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".FaturaActivity">
+
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/txttolfatura"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/blue"
+        app:navigationIcon="@drawable/ic_voltar"
+        app:title="Voltar"
+        app:titleTextColor="@color/white"
+        />
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Resumo Faturas"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        />
+
+<com.vinaygaba.creditcardview.CreditCardView
+    android:id="@+id/cartao"
+    android:layout_width="match_parent"
+    android:layout_height="220dp"
+    android:layout_margin="20dp"
+    android:backgroundTint="@color/black"/>
+
+    <TextView
+        android:id="@+id/dt_vencimento"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Data de Vencimento:05/03/2020"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginLeft="20dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Saldo Parcial: 1000,00 Reais"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"/>
+
+
+
+</LinearLayout>
