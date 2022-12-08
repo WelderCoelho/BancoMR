@@ -1,7 +1,6 @@
 
 <h1>Layout app Banco MR</h1>
-<h1>Curso Android Master</h1>
-
+App criado no curso Android Master com intuido de criar um layout, aprender como funciona a navegação entre activitys e recuperar o id com o método viewBinding.
 ![Activity_principal](https://user-images.githubusercontent.com/82728688/206291208-da8bf147-b82c-41dd-9a07-c3f7037376e1.jpeg)
 
 ![fatura](https://user-images.githubusercontent.com/82728688/206294045-4ce65a18-2b42-4388-aee1-02d77f8ae9ce.jpeg)
